@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="562.0" prefWidth="1038.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.controllers.HistogramController">
+   <children>
+      <BarChart fx:id="histogram" prefHeight="562.0" prefWidth="841.0">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" fx:id="x" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis fx:id="y" side="LEFT" />
+        </yAxis>
+      </BarChart>
+      <Button fx:id="refreshBtn" layoutX="892.0" layoutY="14.0" mnemonicParsing="false" onAction="#refresh" text="Обновить" />
+      <Button fx:id="backBtn" layoutX="892.0" layoutY="62.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="88.0" text="Назад" />
+      <DatePicker fx:id="firstDate" layoutX="850.0" layoutY="103.0" prefHeight="31.0" prefWidth="174.0" promptText="От" />
+      <DatePicker fx:id="secondDate" layoutX="849.0" layoutY="146.0" prefHeight="31.0" prefWidth="174.0" promptText="До" />
+   </children>
+</AnchorPane>

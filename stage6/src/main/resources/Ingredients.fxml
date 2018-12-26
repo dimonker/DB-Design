@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.web.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="365.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.controllers.IngredientsController">
+   <children>
+      <TextField fx:id="textField" layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="131.0" />
+      <Button fx:id="inputBtn" layoutX="14.0" layoutY="59.0" mnemonicParsing="false" onAction="#getIngredients" prefHeight="31.0" prefWidth="131.0" text="Обновить" />
+      <Button fx:id="backBtn" layoutX="14.0" layoutY="100.0" mnemonicParsing="false" onAction="#back" prefHeight="31.0" prefWidth="131.0" text="Назад" />
+      <TextFlow fx:id="textFlow" layoutX="156.0" layoutY="16.0" prefHeight="369.0" prefWidth="200.0" style="-fx-border-color: black;" />
+   </children>
+</AnchorPane>

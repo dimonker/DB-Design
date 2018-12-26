@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="147.0" prefWidth="290.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.app.controllers.StartController">
+   <children>
+      <Button fx:id="ingredientBtn" layoutX="69.0" layoutY="102.0" mnemonicParsing="false" onAction="#showIngredients" text="Ингредиенты" />
+      <Button fx:id="menuBtn" layoutX="69.0" layoutY="14.0" mnemonicParsing="false" onAction="#showMenu" prefHeight="31.0" prefWidth="113.0" text="Меню" />
+      <Button fx:id="histogramBtn" layoutX="69.0" layoutY="58.0" mnemonicParsing="false" onAction="#showHistogram" prefHeight="31.0" prefWidth="113.0" text="Гистограмма" />
+   </children>
+</AnchorPane>
